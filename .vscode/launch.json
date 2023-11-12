@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch init",
+      "type": "go",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.go",
+      "args": ["init", ".test"]
+    }
+  ]
+}

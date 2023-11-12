@@ -1,0 +1,11 @@
+version: "3"
+tasks:
+  sync:
+    cmds:
+      - go mod download && go mod tidy
+  fmt:
+    cmds:
+      - go fmt {{.USER_WORKING_DIR}}/...
+  lint:
+    cmds:
+      - golangci-lint run {{.USER_WORKING_DIR}}

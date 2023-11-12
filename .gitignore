@@ -1,0 +1,4 @@
+.test
+.env
+.DS_Store
+dist/
